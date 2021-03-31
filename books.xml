@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<?xml-stylesheet type="text/css" href="lab5.css"?>
+<tableBooks>
+  <book>
+    <name>The Hobbit</name>
+    <year>1937</year>
+  </book>
+  <book>
+    <name>The Fellowship of the Ring</name>
+    <year>1954</year>
+  </book>
+  <book>
+    <name>The Two Towers</name>
+    <year>1954</year>
+  </book>
+  <book>
+    <name>The Return of the King</name>
+    <year>1955</year>
+  </book>
+  <book>
+    <name>The Adventures of Tom Bombadil</name>
+    <year>1962</year>
+  </book>
+  <book>
+    <name>The Silmarillion</name>
+    <year>1977</year>
+  </book>
+</tableBooks>
