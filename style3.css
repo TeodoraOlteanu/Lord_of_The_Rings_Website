@@ -1,0 +1,41 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  vertical-align: middle;
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h1 {text-align: center;}
+
+input:checked {
+  height: 30px;
+  width: 30px;
+}
+
+body{
+  background-color:#e6eeff
+}
+
+ol.a{
+  vertical-align: middle;
+  width: 700px;
+  height: 1750px;
+  border: 1px solid black;
+  list-style-type:none;
+  background-color: #ffcccc
+}
+
+img{
+  vertical-align: middle;
+  padding: 10px;
+}

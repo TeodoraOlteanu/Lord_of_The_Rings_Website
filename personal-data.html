@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="laborator7.js"></script>
+</head>
+    <body>
+        <form class="personal" action="index.html" method="post">
+            <fieldset>
+             <legend>Person:</legend>
+             <label for="fname">First name:</label>
+             <input type="text" id="fname" name="fname"><br><br>
+             <label for="lname">Last name:</label>
+             <input type="text" id="lname" name="lname"><br><br>
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email"><br><br>
+             <label for="birthday">Birthday:</label>
+             <input type="date" id="birthday" name="birthday"><br><br>
+             <label for="cnp">CNP:</label>
+             <input type="text" id="cnp" name="cnp" readonly><br><br>
+             <label for="id">Your LOTR ID:</label>
+             <input type="text" id="id" name="id" maxlength="6" disabled><br><br>
+             <label for="user">Your favorite username:</label>
+             <input type="text" id="user" name="user" maxlength="10"><br><br>
+             <input type="submit" value="Submit">
+            </fieldset>
+           </form>
+           
+           <input type="checkbox" id="agree" name="agree" checked="checked" value="agree">
+           <label for="agree">Do you agree to send us your data?</label><br>
+    </body>
+</html>

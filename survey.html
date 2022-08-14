@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<title>Survey</title>
+</head>
+
+<body>
+<h4>Please answer the following questions</h4>
+<p>Please select your age:</p>
+<form class="age" action="index.html" method="post">
+<input type="radio" id="age1" name="age" value="30">
+<label for="age1">under 20 or exactly 20 years old</label><br>
+<input type="radio" id="age2" name="age" value="60">
+<label for="age2">21 - 30</label><br>
+<input type="radio" id="age3" name="age" value="100">
+<label for="age3">over 31</label><br><br>
+</form>
+
+
+<h2>Survey</h2>
+
+<p>What part is your favorite part?</p>
+<form class="books" action="index.html" method="post">
+  <input type="checkbox" id="book1" name="book1" value="book1">
+  <label for="book1"> The Fellowship of The Ring</label><br>
+  <input type="checkbox" id="book2" name="book2" value="book2">
+  <label for="book2"> The Two Towers</label><br>
+  <input type="checkbox" id="book3" name="book3" value="book3">
+  <label for="book3"> The Return of The King</label><br><br>
+</form>
+
+<form class="Characters" action="index.html" method="post">
+  <p>Which Character would you like to be? Submit your answer below</p>
+ <label for="ans">Your answer</label>
+ <input type="text" id="ans" name="ans"><br><br>
+</form>
+
+<form class="biom" action="index.html" method="post">
+  <label for="biom">Choose a place in Middle Earth where you would want to live</label>
+  <select name="biom" id="biom" size="5" multiple>
+    <option value="rivendell">Rivendell</option>
+    <option value="theShire">The Shire</option>
+    <option value="gondor">Gondor</option>
+    <option value="mordor" selected>Mordor</option>
+    <option value="woodlandRealm">The Woodland Realm</option>
+    <option value="fangorn" >Fangorn</option>
+    <option value="lothlorien">Lothlorien</option>
+  </select>
+  <br><br>
+</form>
+
+<form class="review" action="index.html" method="post">
+<p>Please write a review of the book/film if you read/watched it</p>
+<label for="review">Review:</label>
+<textarea id="review" name="review" rows="10" cols="100"></textarea>
+  <br><br>
+</form>
+</body>
